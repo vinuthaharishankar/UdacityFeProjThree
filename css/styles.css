@@ -1,25 +1,118 @@
-img {
-	max-width: 100%;
+.bodyCover {
+	margin : 5% 10% 10% 10%;	
 }
 
-.bodyCover {
-	margin : 5% 10% 10% 10%;
+body {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #424242;
 }
+
+
+/* Header */
 
 .logoStyle {
-	height : 60px;
-	width : 100px;
+	height: 80px;
+    width: 100px;
 }
 
 .headerSeparators {
 	border : solid 2px;
 	color : #ddd;
+	margin-top: 0px;
 }
 
+.jobTitle {
+	font-weight: 500;    
+}
+
+
+/*
+ *
+ * Navigation
+ *
+ */
+
+.nav {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__item {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  line-height: 24px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #616161;
+  padding: 48px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #212121;
+}
+
+/* Content Style */
 .folioStyle {
 	width : 100%;
 }
 
-.designStyle {
-	height:120 px;
+.paraText {
+	width:100%;
+	margin-left: 1em;
 }
+
+.services {
+	margin-left: 0.5em;
+	width: 100%;
+}
+
+.watermelon {
+	height: 256px;
+}
+
+.serviesContent {
+	margin-bottom: 2em;
+}
+
+.secondImage {
+	border-radius: 100px 20px;
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+
+footer {
+  border-top: 2px solid #E0E0E0;
+  padding: 1em;
+  width: 100%;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+

@@ -6,30 +6,50 @@
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<meta name="viewport" content="width=device-width,initial scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
 	</head>
 	<body class="bodyCover">
 		<header>	
-			<img src="img/leavesLogo.jpg" class="logoStyle" alt="My Logo">
-			<h1 class="pull-right">VINUTHA SHREYAS</h1>			
-		</header>
+			<div class="row">	
+			<div class="col-md-8"><img src="img/leavesLogo.jpg" class="logoStyle" alt="My Logo"></div>			
+			<div class="col-md-4 pull-right">
+				<h1 class="">VINUTHA SHERYAS</h1>
+				<h4 class="jobTitle">GARDENING-NINJA</h4>
+			</div>	
+			</div>	
+		</header> 
+
 		<hr class="headerSeparators">
-		<!-- <nav class="menu">
-			<ul class="nav nav-pills nav-stacked">
-    			<li class="active"><a href="#">Home</a></li>
-    			<li><a href="#">Profile</a></li>
-    			<li><a href="#">Messages</a></li>
-			</ul> 
-		</nav> -->
+		<nav id="drawer" class="nav">
+      		<ul class="nav__list">
+        		<li class="nav__item col-md-4 col-sm-4 col-xs-4"><a href="#">Home</a></li>
+        		<li class="nav__item col-md-4 col-sm-4 col-xs-4"><a href="#">Portfolio</a></li> 
+        		<li class="nav__item col-md-4 col-sm-4 col-xs-4"><a href="#">Services</a></li>          		
+      		</ul>
+    	</nav>
+
 		<main role="main">
-			<section>
-				<img src="img/gnome-welcome-sign.jpg" class="folioStyle" alt="My Folio">
-				<p><strong>Welcome !! This is a first stop to know how to do urban farming. Here we teach you great tips about home compost prepration, terrace gardening and home kitchen tips.To know more about the serices offered. Please click on the below each images to learn more..</strong></p>
+			<section class="row">
+				<figure>
+					<figcaption align="center"><strong>WELCOME TO MY LITTLE GARDEN</strong></figcaption>
+					<img src="img/gnome-welcome-sign.jpg" class="folioStyle" alt="My Folio">
+					<p class="paraText"><strong>Welcome !! </strong><i>This is a first stop to know how to do urban farming. Here we teach you great tips about home compost prepration, terrace gardening and home kitchen setup.To know more about the serices offered.</i></p>
+				</figure>
 			</section>
-			<div>
-				<img class="col-md-4 col-sm-4 col-xs-4" src="img/gardening-fruit.jpg" alt="garden-Design">
-				<img class="col-md-4 col-sm-4 col-xs-4" src="img/tools-Gardening.jpg"  alt="garden-Tools">
-				<img class="col-md-4 col-sm-4 col-xs-4" src="img/vegetables.jpeg"  alt="garden-Vegetables">
-			</div> 
+			<section class="row serviesContent">
+				<h2 class="services">Gardening Services</h2>
+				<img class="col-md-4 col-sm-4 col-xs-4" title="seedCollection" src="img/seedlings.jpg" alt="garden-Design">
+				<img class="col-md-4 col-sm-4 col-xs-4 secondImage" title="Gardening tools" src="img/tools-Gardening.jpg"  alt="garden-Tools">
+				<img class="col-md-4 col-sm-4 col-xs-4" title="Vegetables grown" src="img/vegetables.jpeg"  alt="garden-Vegetables">
+			</section> 
+			
+		 	<footer>
+        		<ul>
+          			<li><a href="#">Contact me</a></li>
+          			<li><a href="#">Follow me on FaceBook</a></li>
+        		</ul>
+      		</footer>       	
 		</main>
 	</body>
 </html>
