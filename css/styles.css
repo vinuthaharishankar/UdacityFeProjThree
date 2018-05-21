@@ -1,0 +1,25 @@
+img {
+	max-width: 100%;
+}
+
+.bodyCover {
+	margin : 5% 10% 10% 10%;
+}
+
+.logoStyle {
+	height : 60px;
+	width : 100px;
+}
+
+.headerSeparators {
+	border : solid 2px;
+	color : #ddd;
+}
+
+.folioStyle {
+	width : 100%;
+}
+
+.designStyle {
+	height:120 px;
+}
