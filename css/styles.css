@@ -80,14 +80,14 @@ body {
 }
 
 
-.paraText {
-	width:100%;
+.paraText {	
 	margin-left: 1em;
 }
 
 
 .services {	
 	width: 100%;
+    padding-left: 0.5em;
 }
 
 
